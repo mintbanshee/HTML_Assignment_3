@@ -402,36 +402,6 @@ footer {
 
 /* ******** MEDIA ********* */
 
-@media (hover: hover) and (pointer: fine) {
-  footer p:hover {
-    opacity: 1;
-    color: var(--accentGlow);
-    text-decoration: underline;
-  }
-  .contactButton:hover {
-    filter: drop-shadow(3px 3px 7px var(--accentGlow));
-    cursor: pointer;
-  }
-  .galleryItem:hover {
-    filter: drop-shadow(3px 3px 7px var(--accentGlow));
-    cursor: pointer;
-  }
-  .galleryTeaser:hover {
-    filter: drop-shadow(3px 3px 7px var(--accentGlow));
-  }
-  nav > a:hover {
-    color: var(--accentGlow);
-    opacity: 1;
-  }
-  .icon:hover {
-    opacity: 1;
-  }
-  #burgerMenu:hover {
-    opacity: 1;
-  }
-
-}
-
 @media (max-width: 1440px) {
   #contactSection p {
     max-width: 80%;
@@ -502,5 +472,19 @@ footer {
   }
   .icon {
     opacity: 1;
+  }
+  nav > a:hover,
+  .icon:hover,
+  #burgerMenu:hover,
+  .contactButton:hover,
+  .galleryItem:hover,
+  .galleryTeaser:hover,
+  footer p:hover {
+    all: unset;
+    opacity: 1;
+    color: inherit;
+    filter: none;
+    text-decoration: none;
+    cursor: default;
   }
 }
