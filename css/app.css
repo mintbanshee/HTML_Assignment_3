@@ -148,7 +148,7 @@ nav {
     width: 150px;
     padding: 15px 0;
     margin: 0 auto;
-    border-radius: 16px;
+    border-radius: 50%;
   }
   #sloganDiv {
     text-align: center;
@@ -204,13 +204,13 @@ nav {
   background-size: cover;
   background-position: center 50%;
   position: relative;
+  text-align: center;
 }
   #ownerIMGDiv h2 {
     font-size: 6em;
     color: var(--accentGlow);
     margin: 0;
     line-height: 250px;
-    margin-left: 350px;
     font-weight: 550;
     padding: 20px;
     text-shadow: 3px 3px 7px var(--hover-shadow);
@@ -220,9 +220,10 @@ nav {
   border-bottom: 1px solid var(--border);
 }
 #starPoem {
+  max-width: 90vh;
   text-align: center;
   padding: 15px;
-  margin-top: 40px;
+  margin: 0 auto;
 }  
   #starPoem p {
       font-size: 0.8em;
@@ -320,9 +321,10 @@ nav {
 /* ******** CONTACT SECTION ******** */
 
 #contactSection {
-  height: 1200px;
+  height: 800px;
   border-bottom: 1px solid var(--border);
   text-align: center;
+  padding-bottom: 40px;
 }
   #contactSection h2 {
     font-size: 4em;
@@ -338,62 +340,36 @@ nav {
     margin-bottom: 20px;
     border-radius: 16px;
   }
+  .contactLinks {
+    display: inline-block;
+    padding: 20px;
+    width: 95%;
+    border: 2px solid var(--callToAct);
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(138, 141, 173, 0.5);
+    padding: 3rem 2rem;
+    margin-top: 20px;
+    text-align: center;
+    color: #fdfdfd;
+  }
+  .contactButton {
+    display: inline-block;
+    background: url(../assets/images/homeIMGs/Stars.jpg);
+    background-position: left 70%;
+    color: var(--accentGlow);
+    padding: 0.8rem 1.4rem;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 6px #aaaaff;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+    .contactButton:hover {
+      filter: drop-shadow(3px 3px 7px var(--accentGlow));
+      cursor: pointer;
+    }
 
-#contact form {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
-  background-color: var(--background);
-  padding: 30px;
-  border-radius: var(--radius);
-  box-shadow: 0 0 20px var(--hover-shadow);
-  border: 1px solid var(--border);
-}
-#contact label {
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 6px;
-  font-weight: bold;
-  color: var(--accentGlow);
-}
-#contact input,
-#contact select,
-#contact textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  background: #f9f8ff;
-  font-size: 1em;
-  color: #1a1a1a;
-  box-sizing: border-box;
-}
-#contact input[type="checkbox"] {
-  width: auto;
-  margin-right: 8px;
-}
-#contact textarea {
-  resize: vertical;
-}
-.form-buttons {
-  margin-top: 30px;
-  text-align: center;
-}
-.form-buttons button {
-  background-color: var(--callToAct);
-  color: #1a1a1a;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: var(--radius);
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-.form-buttons button:hover {
-  background-color: var(--highlight);
-  box-shadow: 0 0 10px var(--accentGlow);
-}
 
 /* ******** FOOTER ******** */
 
@@ -401,7 +377,7 @@ footer {
   clear: both;
   background: url(../assets/images/homeIMGs/Stars.jpg);
   width: 100%;
-  height: 200px;
+  height: 250px;
   text-align: center;
   font-size: 0.9em;
   padding-top: 15px;
@@ -424,3 +400,71 @@ footer {
         text-decoration: underline;
       }
 
+/* ******** MEDIA ********* */
+
+@media (max-width: 1440px) {
+  #contactSection p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #contactIMG {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  #galleryTeaser h3 {
+    font-size: 1em;
+  }
+  #aboutText p {
+    font-size: 0.8em;
+  }
+  #bioPicDiv h3 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 1125px) {
+  #headerTextBox h1 {
+    font-size: 4em;
+  }
+  #sloganDiv p {
+    font-size: 1em;
+  }
+  #contactSection p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #starPoem {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1045px) {
+  #bioPic {
+    float: none;
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+  }
+  #bioPicDiv {
+    text-align: center;
+  }
+  #aboutText {
+    padding: 5px;
+  }
+  #aboutText p {
+    font-size: 0.7em;
+    padding: 5px;
+    margin: 0 85px;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  #headerTextBox h1 {
+    font-size: 3em;
+  }
+  #galleryTeaser h3 {
+    font-size: 0.8em;
+  }
+}
