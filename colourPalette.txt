@@ -1,0 +1,29 @@
+🌌 LunarLens Core Palette
+
+    Role	              Name      	        Hex	                  Use For
+🌙 Background	    Midnight Spruce	      #0F1A20	      Page background, dark sections
+💫 Accent Glow	  Moonstone Mist	      #D7DDE4	      Text, glow hovers, borders
+🌌 Primary Text	  Stardust Gray	        #B6BCC4   	    Headings, nav, subtle contrasts
+🌠 Highlight	    Aurora Lilac	        #AFA4C8	      Accent buttons, hover effects
+🌿 Soft Contrast	Forest Eclipse	      #1C2B28	      Section dividers, cards, footer background
+🔆 Warm Detail	  Twilight Gold	        #E6CFAA	      Occasional accents (stars, quotes, hover links)
+
+🎨 Optional Additions:
+    Use	                          Shade	                      Hex
+Subtle call-to-action	          Petal Dust	              #EBD4DA
+Cool shadow/hover layer	        Night Plum	              #2D2236
+Image frame borders	            Fog Silver	              #8A8E95
+
+✨ Sample Uses:
+Body Background: #0F1A20 (Midnight Spruce)
+Main Text & Paragraphs: #B6BCC4 (Stardust Gray)
+Headings/Logo Text: #D7DDE4 (Moonstone Mist)
+Buttons or Hovers: #AFA4C8 (Aurora Lilac) with glow or border in #E6CFAA (Twilight Gold)
+Section Splits or Cards: #1C2B28 (Forest Eclipse)
+Image Captions or Quotes: In soft serif using #EBD4DA (Petal Dust)
+
+🖼️ Inspiration Sources:
+Your moon photos = cool grays, misty whites, deep navy
+Porch light / Fireworks = golden spark moments
+Blue Spruce Morning = evergreen tones and fog silver
+Your poetry = soft but emotional — like pale lilac or dusty rose

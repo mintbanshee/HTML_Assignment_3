@@ -1,0 +1,103 @@
+Client:
+
+🌙 LunarLens Photography — Client Brief (Assignment Format)
+
+Field	Details
+
+Client Name	LunarLens Photography
+Founded	2019
+Business Type	Photography studio
+Specialty	Cinematic portraits and surreal nightscapes
+Products/Services	Portrait sessions, event photography, landscape photography
+Slogan	“Illuminate the unseen.”
+Values	Vision, storytelling, emotion
+Size	8 employees
+
+✨ How to Use This in Your Project:
+
+📄 About Section / Page
+
+Use the table above to write paragraph content in a warm, poetic style. Example intro:
+LunarLens Photography is a boutique studio founded in 2019, specializing in cinematic portraits and surreal nightscapes. With a team of eight passionate artists, LunarLens believes in capturing the quiet moments that often go unseen — the hush of moonlight, the glow of golden hour, the story behind every frame. Rooted in vision, storytelling, and emotion, every photograph is a window into the wonder of the world.
+
+📸 Services Page / Section (if you include one)
+
+Highlight:
+Portrait Photography (in natural & dramatic light)
+Event Coverage (intimate + artistic style)
+Landscape/Scenic Imagery (especially nightscape work)
+
+🖼️ Visual Branding & Layout
+
+Site tone: Emotional, minimal, glowing
+Color palette: [see previous message]
+Content goal: Make the brand feel real and artistic, not generic
+
+
+-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`-`
+
+use dev tools 2nd icon (mobile & desktop)
+    - drag to change the size and see which size
+        needs the @mobile changes
+
+just copy the app.js code to use for hamburger menu
+
+can do single page or multi-page
+
+build a fully mobile responsive page
+
+contact form optional
+    - up to you how to do contact
+
+number of media queries depends on site
+  - 1 is minimum
+
+vh = vertical height
+    - goes right to the bottom/where it cuts off
+    - relative to the user's screen
+    - like a 100% height but works more reliably
+
+clear: both;
+  - you get the float without it affecting following properties
+  - try for BSM footer
+
+
+img src="https://www.placeholdit.com/250x250" alt "placeholder"
+      - can change the 250x250 to whatever width x height you want 
+
+css is read from top to bottom
+      - if you have duplicate properties in different spots
+          - following property overrules previous property
+
+imported csn (like google font) 
+    - always comes before css link in html
+
+js query loads first
+before calling js in html
+
+square images are your friend
+    - they size nicely when scaling
+
+HTML_Assignment_3
+    - brightspace submission
+    - zipped
+
+single page or multi-page
+    - 4 pages/sections
+      - the usual - home, about, your choice, contact
+
+logo and socials
+
+mobile responsive down to 840px
+  - nothing touching
+  - nothing overlapping
+  - nothing popping out
+  - nothing squishing
+
+site nav is up to you 
+
+Choose company from list
+
+treat it like building a site for a client
+
+have Luna make text content, no lorem ipsum
