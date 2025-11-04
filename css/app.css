@@ -112,7 +112,7 @@ header {
 nav {
   position: fixed;
   z-index: 7;
-  width: 200px;
+  width: 225px;
   background: rgba(100, 50, 100, 0.2);
   height: 100vh;
   right: -350px;
@@ -123,7 +123,7 @@ nav {
 }
   nav > a {
     display: block;
-    font-size: 2em;
+    font-size: 1.8em;
     color: var(--textColor);
     text-decoration: none;
     opacity: 0.8;
@@ -150,6 +150,9 @@ nav {
     margin: 0 auto;
     border-radius: 50%;
   }
+    #sloganPic:hover {
+      filter: drop-shadow(0px 0px 5px var(--accentGlow));
+    }
   #sloganDiv {
     text-align: center;
   }
@@ -191,7 +194,7 @@ nav {
     cursor: pointer;
   }
     .galleryTeaser:hover {
-      filter: drop-shadow(3px 3px 7px var(--accentGlow));
+      filter: drop-shadow(0px 0px 5px var(--accentGlow));
     }
 
 /* ******* ABOUT SECTION ******* */
@@ -241,6 +244,9 @@ nav {
     float: left;
     padding: 15px;
   }
+    #bioPic:hover {
+      filter: drop-shadow(0px 0px 5px var(--accentGlow));
+    }
   #bioPicDiv h3 {
     font-size: 1.5em;
     color: var(--detail);
@@ -268,7 +274,7 @@ nav {
   border-bottom: 1px solid var(--border);
 }
   #gallerySection h2 {
-    font-size: 4em;
+    font-size: 6em;
     color: var(--accentGlow);
   }
   #gallerySection p {
@@ -308,7 +314,7 @@ nav {
     background: rgba(79, 111, 111, .45);
   }
   .galleryItem:hover {
-    filter: drop-shadow(3px 3px 7px var(--accentGlow));
+    filter: drop-shadow(0px 0px 5px var(--accentGlow));
     cursor: pointer;
   }
   
@@ -327,7 +333,7 @@ nav {
   padding-bottom: 40px;
 }
   #contactSection h2 {
-    font-size: 4em;
+    font-size: 6em;
     color: var(--accentGlow);
   }
   #contactSection p {
@@ -366,7 +372,7 @@ nav {
     transition: background-color 0.3s, transform 0.3s;
   }
     .contactButton:hover {
-      filter: drop-shadow(3px 3px 7px var(--accentGlow));
+      filter: drop-shadow(0px 0px 5px var(--accentGlow));
       cursor: pointer;
     }
 
@@ -422,6 +428,10 @@ footer {
   #bioPicDiv h3 {
     font-size: 1.2em;
   }
+  .contactLinks {
+    width: 80%;
+    padding: 2rem 1rem;
+  }
 }
 
 @media (max-width: 1125px) {
@@ -472,6 +482,10 @@ footer {
   }
   .icon {
     opacity: 1;
+  }
+  .contactLinks {
+    width: 70%;
+    padding: 0.6rem 0.4rem;
   }
   nav > a:hover,
   .icon:hover,
